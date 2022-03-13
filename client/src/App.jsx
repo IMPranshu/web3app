@@ -1,9 +1,9 @@
 import { Navbar, Welcome, Footer, Services, Transactions } from './components';
-
+import "./index.css";
 const App = () => {
   return (
-    <div classname="min-h-screen">
-      <div classname="gradient-bg-welcome">
+    <div className="min-h-screen">
+      <div className="gradient-bg-welcome">
         <Navbar />
         <Welcome />
       </div>
