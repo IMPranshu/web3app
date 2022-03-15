@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "E:\\desktop\\web3app\\smart_contract\\contracts\\Transactions.sol": {
-      "lastModificationDate": 1647262252417,
-      "contentHash": "daa9da60f6f69aed74ccefe18626e97d",
+      "lastModificationDate": 1647321537926,
+      "contentHash": "53640b154a8e2ca71cc997997fa274b6",
       "sourceName": "contracts/Transactions.sol",
       "solcConfig": {
         "version": "0.8.0",
@@ -28,9 +28,7 @@
           }
         }
       },
-      "imports": [
-        "hardhat/console.sol"
-      ],
+      "imports": [],
       "versionPragmas": [
         "^0.8.0"
       ],
