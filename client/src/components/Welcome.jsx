@@ -1,4 +1,4 @@
-import { AiFillAlipayCircle } from "react-icons/ai";
+import { AiFillPlayCircle } from "react-icons/ai";
 import {SiEthereum} from 'react-icons/si';
 import { BsInfoCircle } from 'react-icons/bs';
 import React, {useContext } from 'react';
@@ -23,7 +23,7 @@ const Input =({placeholder,name, type, value,handleChange}) => (
 );
 const Welcome = () => {
 
-  const {connectWallet, currentAccount, formData, sendTransaction, handleChange} = useContext(TransactionContext);
+  const {connectWallet, currentAccount, formData, sendTransaction, handleChange, isLoading} = useContext(TransactionContext);
 
   const handleSubmit = (e) => {
     const { addressTo, amount, keyword, message } = formData;
@@ -33,7 +33,7 @@ const Welcome = () => {
 
     sendTransaction();
 
-  }
+  };
   return(
     <div className="flex w-full justify-center items-center ">
       <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
@@ -108,10 +108,9 @@ const Welcome = () => {
             <Input placeholder="Enter Message" name ="message" type ="text" handleChange={handleChange} /> 
 
             <div className="h-[1px] w-full bg-gray-400 my-2" />
-            {false ? (
+            {isLoading ?
               <Loader />
-
-            ) : (
+               : (
               <button
               type="button"
               onClick={handleSubmit}
@@ -130,6 +129,6 @@ const Welcome = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Welcome;

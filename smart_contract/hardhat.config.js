@@ -1,17 +1,11 @@
 require('@nomiclabs/hardhat-waffle');
-require('@nomiclabs/hardhat-ethers');
-require('dotenv').config();
-const API_URL = process.env.API_URL;
-const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
 module.exports = {
-  solidity: "0.8.0",
-  defaultNetwork: "ropsten",
-  networks:{
-    hardhat:{},
-    ropsten:{
-      url:API_URL,
-      accounts:[`0x${PRIVATE_KEY}`]
-    }
-  }
+  solidity: '0.8.0',
+  networks: {
+    ropsten: {
+      url: 'https://eth-ropsten.alchemyapi.io/v2/PlnOdgpEOAY4NWoPlL_lQbBsTCVBmR7d',
+      accounts: ['08d39866bb880772d5cca49ef9aa1177e7a9b9537ea083bee779e0a20e494a48'],
+    },
+  },
 };

@@ -24,8 +24,6 @@ contract Transactions {
         transactions.push(TransferStruct(msg.sender, receiver, amount, message, block.timestamp, keyword));
 
         emit Transfer(msg.sender, receiver, amount, message, block.timestamp, keyword);
-
-        receiver.transfer(amount);
     }
 
     function getAllTransactions() public view returns (TransferStruct[] memory) {
