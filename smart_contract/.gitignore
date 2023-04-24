@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 .env
+hardhat.config.js
 
 # Editor directories and files
 .vscode/*

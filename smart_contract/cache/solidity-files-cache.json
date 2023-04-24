@@ -1,44 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "E:\\desktop\\web3app\\smart_contract\\node_modules\\hardhat\\console.sol": {
-      "lastModificationDate": 1647241155247,
-      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
-      "sourceName": "hardhat/console.sol",
-      "solcConfig": {
-        "version": "0.8.0",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.4.22 <0.9.0"
-      ],
-      "artifacts": [
-        "console"
-      ]
-    },
-    "E:\\desktop\\web3app\\smart_contract\\contracts\\Transactions.sol": {
-      "lastModificationDate": 1647420800433,
-      "contentHash": "3ccff2d0bbd17920dc64c9d0e4441b76",
+    "/Users/impranshu/Desktop/projects/web3app/smart_contract/contracts/Transactions.sol": {
+      "lastModificationDate": 1682332379422,
+      "contentHash": "2069db691ba49ef7682ee1657f84117a",
       "sourceName": "contracts/Transactions.sol",
       "solcConfig": {
         "version": "0.8.0",
