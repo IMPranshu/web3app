@@ -31,6 +31,6 @@ https://user-images.githubusercontent.com/43396684/233986975-c21eaa3c-c2f7-4622-
 - [Sepolia Testnet](https://www.alchemy.com/overviews/sepolia-testnet) - For deploying the smart contract
 ## Live App Deployed 
 
-link- https://web3app-bafinwbns-impranshu.vercel.app/
+link- https://web3app-lzfu.vercel.app/
 
 
